@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Sansita+Swashed:wght@300..900&display=swap");
+/* === Asosiy stillar === */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: roboto;
+  box-sizing: border-box;
+}
+.container {
+  width: 1440px;
+  margin: auto;
+  padding: 10px 130px;
+}
+.container {
+  width: 1440px;
+  margin: auto;
+  padding: 10px 130px;
+}
+.btn {
+  width: 220px;
+  background-color: white;
+  border: none;
+  padding: 24px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.btn--black {
+  background-color: #333333;
+  color: white;
+}
+.title {
+  color: #bdbdbd;
+  font-size: 48px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+/* === header === */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  height: 50px;
+}
+
+.header__menu {
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+}
+
+.header__link {
+  padding: 3px 12px;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.header__link.active {
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+}
+
+/* === hero === */
+.hero {
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.hero__suptitle {
+  font-size: 29px;
+  margin-bottom: 70px;
+}
+.hero__img {
+  width: 620px;
+}
+
+.hero__btn {
+  background-color: white;
+  padding: 12px;
+  border: 1px solid #bdbdbd;
+}
+
+.hero__right {
+  position: relative;
+}
+
+.hero__btn--right {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+/* === about === */
+.about {
+  padding: 50px 0;
+}
+.about__wrapper {
+  padding: 30px 70px;
+  background-color: #fbfbfb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.about__img {
+  width: 480px;
+}
+
+.about__content {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.about__text {
+  font-size: 16px;
+  color: black;
+  line-height: 25px;
+}
+
+/* === main-focus === */
+
+.main-focus {
+  padding: 50px 0;
+}
+.main-focus__infos {
+  display: flex;
+  justify-content: space-between;
+}
+.main-focus__info {
+  width: 45%;
+  display: flex;
+  align-items: center;
+}
+.main-focus__title {
+  color: #f2f2f2;
+  font-size: 200px;
+  margin: 0 30px;
+}
+.main-focus__text {
+  font-size: 22px;
+  color: #333333;
+}
+
+/* === projects === */
+.projects {
+  margin: auto;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.projects__images {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 30px;
+}
+
+.projects__wrap {
+  display: flex;
+  gap: 30px;
+}
+
+.projects__btn {
+  align-self: flex-end;
+}
